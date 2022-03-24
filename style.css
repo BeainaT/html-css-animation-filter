@@ -125,3 +125,23 @@
     border-radius: 20px;
     transform: scale(1.3);
 }
+.ex-10-icon {
+    animation: rotation 1s linear infinite;
+}
+@keyframes rotation {
+    0% {
+        transform: rotate(1turn);
+    }
+    
+}
+.ex-11-icon:hover {
+    animation: lazyRotation 2s linear;
+}
+@keyframes lazyRotation {
+    0% {
+        transform: rotate(0);
+    }
+    80% {
+        transform: rotate(290deg);
+    }
+}
